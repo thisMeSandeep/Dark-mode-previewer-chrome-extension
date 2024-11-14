@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dark Mode Previewer</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Dark Mode Previewer</h1>
+  
+  <!-- Section for choosing background color -->
+  <div class="color-section">
+    <h2>Background Color</h2>
+    <!-- Container to hold the background color options -->
+    <div id="bg-color-options" class="color-options"></div>
+  </div>
+  
+  <!-- Section for choosing text color -->
+  <div class="color-section">
+    <h2>Text Color</h2>
+    <!-- Container to hold the text color options -->
+    <div id="text-color-options" class="color-options"></div>
+  </div>
+  
+  <!-- Section to display the selected background color -->
+  <div class="selected-colors">
+    <span>Selected Background Color:</span> 
+    <!-- Box to show the selected background color -->
+    <div id="selected-bg-color" class="selected-color-box"></div>
+    <!-- Display the value of the selected background color -->
+    <span id="selected-bg-color-value" class="color-value"></span>
+  </div>
+  
+  <!-- Section to display the selected text color -->
+  <div class="selected-colors">
+    <span>Selected Text Color:</span> 
+    <!-- Box to show the selected text color -->
+    <div id="selected-text-color" class="selected-color-box"></div>
+    <!-- Display the value of the selected text color -->
+    <span id="selected-text-color-value" class="color-value"></span>
+  </div>
+  
+  <!-- Linking the external JavaScript file for the popup functionality -->
+  <script src="popup.js"></script>
+</body>
+</html>
